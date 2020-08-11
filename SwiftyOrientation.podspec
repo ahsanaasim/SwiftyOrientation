@@ -25,11 +25,11 @@ Pod::Spec.new do |s|
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'Ahsan Aasim' => 'ahsan.aasim@gmail.com' }
-    s.source           = { :git => 'https://github.com/Ahsan Aasim/SwiftyOrientation.git', :tag => s.version.to_s }
-    s.social_media_url = 'https://www.linkedin.com/in/ahsan-aasim/'
+    s.source           = { :git => 'https://github.com/ahsanaasim/SwiftyOrientation.git', :tag => s.version.to_s }
+    s.social_media_url = 'https://www.facebook.com/ahsan.aasim.03'
     
     s.ios.deployment_target = '8.0'
-    s.swift_version = '5.0'
+    s.swift_version = '5.0 '
     s.source_files = 'Sources/**/*.swift'
     
     # s.resource_bundles = {
