@@ -1,0 +1,22 @@
+{
+  "name": "SwiftyOrientation",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftyOrientation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ahsan Aasim/SwiftyOrientation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ahsan Aasim": "ahsan.aasim@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Ahsan Aasim/SwiftyOrientation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftyOrientation/Classes/**/*"
+}

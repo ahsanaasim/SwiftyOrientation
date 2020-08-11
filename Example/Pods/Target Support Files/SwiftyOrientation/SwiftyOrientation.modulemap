@@ -1,0 +1,6 @@
+framework module SwiftyOrientation {
+  umbrella header "SwiftyOrientation-umbrella.h"
+
+  export *
+  module * { export * }
+}

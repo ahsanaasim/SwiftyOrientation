@@ -1,0 +1,6 @@
+framework module Pods_SwiftyOrientation_Tests {
+  umbrella header "Pods-SwiftyOrientation_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

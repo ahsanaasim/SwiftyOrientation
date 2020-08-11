@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyOrientation (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyOrientation (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyOrientation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyOrientation: d7ac185818390220dcb9536d0c15f2f539bd1052
+
+PODFILE CHECKSUM: f8c140e3d3bea464014822c6f8edef15c7e67338
+
+COCOAPODS: 1.9.3
