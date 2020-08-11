@@ -1,6 +1,6 @@
 # SwiftyOrientation
 
-[![CI Status](https://img.shields.io/travis/Ahsan Aasim/SwiftyOrientation.svg?style=flat)](https://travis-ci.org/Ahsan Aasim/SwiftyOrientation)
+[![CI Status](https://img.shields.io/travis/ahsanaasim/SwiftyOrientation.svg?style=flat)](https://travis-ci.org/ahsanaasim/SwiftyOrientation)
 [![Version](https://img.shields.io/cocoapods/v/SwiftyOrientation.svg?style=flat)](https://cocoapods.org/pods/SwiftyOrientation)
 [![License](https://img.shields.io/cocoapods/l/SwiftyOrientation.svg?style=flat)](https://cocoapods.org/pods/SwiftyOrientation)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyOrientation.svg?style=flat)](https://cocoapods.org/pods/SwiftyOrientation)
