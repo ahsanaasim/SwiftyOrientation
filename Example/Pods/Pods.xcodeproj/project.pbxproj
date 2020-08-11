@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		059011B6D81CFAC6A5D940D0A8DDD938 /* Pods-SwiftyOrientation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A57F7AEA05CA5871FFDAC8297EE16B9F /* Pods-SwiftyOrientation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36185D9E9452F3092E28B7D1069EC5D8 /* Pods-SwiftyOrientation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE2EF6A7F1105F4EAB10F783102ADD3E /* Pods-SwiftyOrientation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D9DF1DF24E2FFC600573412 /* SwiftyOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9DF1DC24E2F17F00573412 /* SwiftyOrientation.swift */; };
 		A5D63090D718B6AD06835F40220731CB /* SwiftyOrientation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6B30471BB527E11B4D1E19BF671ABD /* SwiftyOrientation-dummy.m */; };
 		BAED498FD16A0028F20F51DB801E8F75 /* Pods-SwiftyOrientation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 666989C06BC86261EDD0EF37246652D0 /* Pods-SwiftyOrientation_Example-dummy.m */; };
 		C5C26FE84F4BAFB1E8A75A472510C027 /* Pods-SwiftyOrientation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 039EAB4D5AE3D9A0CA2E7E7BAE8FFBC4 /* Pods-SwiftyOrientation_Tests-dummy.m */; };
-		CBB8AC27BDFE6F2E562BC42D1F8B678E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF750B9D8ABB83B48A4EE303485663F /* ReplaceMe.swift */; };
 		D59D82032BEB03161284FEE077CA572A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		EC18C47249B0DE873C38E1BDB13AEFF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F6404A185A49B435FC78DD1C4C4E78C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -41,7 +41,7 @@
 		0638BC2D273ACFE80A61D19E69290656 /* Pods-SwiftyOrientation_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyOrientation_Tests-Info.plist"; sourceTree = "<group>"; };
 		141019C64D424A18ADE9BB6EE5C768B0 /* Pods-SwiftyOrientation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyOrientation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		20862F61CEDB1F2579141BDBAB899BC2 /* SwiftyOrientation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyOrientation.debug.xcconfig; sourceTree = "<group>"; };
-		2F6E677ECA4B6CC2016F1C10B233F977 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2F6E677ECA4B6CC2016F1C10B233F977 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3050EF32542D5880AA07F78AA665C08D /* Pods-SwiftyOrientation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftyOrientation_Tests.modulemap"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3C34B28676107EE44866C3DDEBF0BE36 /* SwiftyOrientation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyOrientation.release.xcconfig; sourceTree = "<group>"; };
@@ -52,24 +52,24 @@
 		666989C06BC86261EDD0EF37246652D0 /* Pods-SwiftyOrientation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyOrientation_Example-dummy.m"; sourceTree = "<group>"; };
 		6A6B30471BB527E11B4D1E19BF671ABD /* SwiftyOrientation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyOrientation-dummy.m"; sourceTree = "<group>"; };
 		6BFCC72614F0EC2E2EB601FD11E725A2 /* Pods-SwiftyOrientation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyOrientation_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7117BF5D00B9D0D773326DFF941D3D67 /* SwiftyOrientation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftyOrientation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8577E3EE176046D107E6AFBE0D01742B /* Pods_SwiftyOrientation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyOrientation_Example.framework; path = "Pods-SwiftyOrientation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7117BF5D00B9D0D773326DFF941D3D67 /* SwiftyOrientation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftyOrientation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8577E3EE176046D107E6AFBE0D01742B /* Pods_SwiftyOrientation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyOrientation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9823A99D8C1D70C50DDA9FCE2BA209A2 /* Pods-SwiftyOrientation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyOrientation_Example-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D9DF1DC24E2F17F00573412 /* SwiftyOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyOrientation.swift; sourceTree = "<group>"; };
 		A57F7AEA05CA5871FFDAC8297EE16B9F /* Pods-SwiftyOrientation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyOrientation_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AE2EF6A7F1105F4EAB10F783102ADD3E /* Pods-SwiftyOrientation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftyOrientation_Example-umbrella.h"; sourceTree = "<group>"; };
 		B1982C4B50B7D76E2308BA66CF3406DC /* Pods-SwiftyOrientation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftyOrientation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BBA13067515E83040C33F5D4E932AB2F /* Pods-SwiftyOrientation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyOrientation_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C3C2F0F02F74002FA8D7FC3B756787EA /* SwiftyOrientation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyOrientation-Info.plist"; sourceTree = "<group>"; };
-		D8FE35B6405F42300CF37E1761487BF9 /* Pods_SwiftyOrientation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftyOrientation_Tests.framework; path = "Pods-SwiftyOrientation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E222EDD55EFD17B647F94B44CD0EF72E /* SwiftyOrientation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyOrientation.framework; path = SwiftyOrientation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8FE35B6405F42300CF37E1761487BF9 /* Pods_SwiftyOrientation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyOrientation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E222EDD55EFD17B647F94B44CD0EF72E /* SwiftyOrientation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyOrientation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25FDF0034D61303FF1B70B0DD345844 /* Pods-SwiftyOrientation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyOrientation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EE3B989B925D2B5B43E8C9BDE46B2B10 /* Pods-SwiftyOrientation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftyOrientation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F432B70A14A2ACF0A022670108BF06A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F432B70A14A2ACF0A022670108BF06A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F5089165C07321CACA7E0E732B3D5CC0 /* SwiftyOrientation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyOrientation-prefix.pch"; sourceTree = "<group>"; };
 		F703F9D06CF86062871205706DFF6E1D /* SwiftyOrientation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyOrientation-umbrella.h"; sourceTree = "<group>"; };
 		F7FFC65436127299550F0F9E32687378 /* Pods-SwiftyOrientation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftyOrientation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FCF750B9D8ABB83B48A4EE303485663F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftyOrientation/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,10 +185,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9D9DF1DB24E2F16700573412 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9D9DF1DC24E2F17F00573412 /* SwiftyOrientation.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		A9817DDE27BE9123654B199F77270C24 /* SwiftyOrientation */ = {
 			isa = PBXGroup;
 			children = (
-				FCF750B9D8ABB83B48A4EE303485663F /* ReplaceMe.swift */,
+				9D9DF1DB24E2F16700573412 /* Sources */,
 				04CF40AC46D743803C08C312465B904F /* Pod */,
 				3B6E544A58356BE1ACC8A03FC817D4A0 /* Support Files */,
 			);
@@ -317,6 +325,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					94A746D360F427C94D1660413A1069F6 = {
+						LastSwiftMigration = 1160;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -375,7 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBB8AC27BDFE6F2E562BC42D1F8B678E /* ReplaceMe.swift in Sources */,
+				9D9DF1DF24E2FFC600573412 /* SwiftyOrientation.swift in Sources */,
 				A5D63090D718B6AD06835F40220731CB /* SwiftyOrientation-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +424,7 @@
 			baseConfigurationReference = EE3B989B925D2B5B43E8C9BDE46B2B10 /* Pods-SwiftyOrientation_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -433,6 +447,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -592,8 +607,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -699,6 +713,7 @@
 			baseConfigurationReference = E25FDF0034D61303FF1B70B0DD345844 /* Pods-SwiftyOrientation_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -721,6 +736,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
