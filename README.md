@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/SwiftyOrientation.svg?style=flat)](https://cocoapods.org/pods/SwiftyOrientation)
 [![License](https://img.shields.io/cocoapods/l/SwiftyOrientation.svg?style=flat)](https://cocoapods.org/pods/SwiftyOrientation)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyOrientation.svg?style=flat)](https://cocoapods.org/pods/SwiftyOrientation)
+[![Reviewed by Hound](https://img.shields.io/badge/Reviewed_by-Hound-8E64B0.svg)](https://houndci.com)
 
 ## Example
 
