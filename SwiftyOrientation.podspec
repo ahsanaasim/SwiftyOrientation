@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'SwiftyOrientation'
-    s.version          = '0.1.1'
+    s.version          = '0.1.2'
     s.summary          = 'SwiftyOrientation is helper for oreintation handling.'
     
     # This description is used to generate tags and improve search results.
